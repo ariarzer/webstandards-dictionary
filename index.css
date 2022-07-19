@@ -1,0 +1,11 @@
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    margin: 5vh auto;
+    max-width: 1000px;
+    width: 60vw;
+    min-width: min(500px, 90vw);
+}

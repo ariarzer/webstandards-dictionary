@@ -1,0 +1,27 @@
+.Term__define a {
+    color: CanvasText;
+    text-decoration-color: GrayText;
+}
+
+.Term__mainName {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Term__sideName {
+
+}
+
+dt {
+    margin-bottom: 0.5em;
+}
+
+dt + dd {
+    margin-bottom: 1.5em;
+}
+
+.Term__tag {
+    color: GrayText;
+    margin-left: 1ch;
+    text-decoration: none;
+}

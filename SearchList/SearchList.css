@@ -1,0 +1,12 @@
+.SearchList__input {
+    font-family: inherit;
+    font-size: inherit;
+    border: 2px solid CanvasText;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+}
+
+.SearchList__input:focus-visible {
+    outline: none;
+}
