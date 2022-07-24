@@ -12,9 +12,9 @@ export default {
                 test: /\.(jsx?)$/,
                 use: {
                     loader: 'babel-loader',
-                    options: {
-                        plugins: ['@babel/plugin-syntax-top-level-await'],
-                    },
+                    // options: {
+                    //     plugins: ['@babel/plugin-syntax-top-level-await'],
+                    // },
                 },
             },
             {
@@ -24,7 +24,7 @@ export default {
         ],
     },
     mode: 'development',
-    experiments: {
-        topLevelAwait: true,
-    },
+    // experiments: {
+    //     topLevelAwait: true,
+    // },
 };

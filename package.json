@@ -13,6 +13,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@textlint/markdown-to-ast": "^12.2.1",
     "eslint-plugin-react": "^7.28.0",
     "markdown-it": "^12.3.2",
     "md-2-json": "^2.0.0",

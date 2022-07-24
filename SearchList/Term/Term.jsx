@@ -6,16 +6,8 @@ export function Term(props) {
     const { term } = props;
     return <>
         <dt>
-            <span className="Term__mainName">{term.name_ru}</span>
-            {' '}
-            <span className="Term__sideName">
-                {'(англ. '}
-                <a href={term.link} target="_blank" rel="noreferrer">
-                    {term.name_en}
-                </a>
-                )
-            </span>
+            <span className="Term__mainName" id={term.id}>{term.name_en}</span>
         </dt>
-        <dd className="Term__define" dangerouslySetInnerHTML={{ __html: term.define_ru}} />
+        <dd className="Term__define" dangerouslySetInnerHTML={{ __html: term.define_ru }} />
     </>;
 }
